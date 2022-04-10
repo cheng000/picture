@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin">
+    <meta name="ASD.Meta.StopBounces" content="YES" />
+    <title>阿里云盘分享</title>
+    <link rel="icon" href="https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico">
+    <link rel="stylesheet" href="//g.alicdn.com/code/lib/antd/4.15.2/antd.css" />
+    <meta name="data-spm" content="aliyundrive" />
+    <script>
+      ;(function() { function check() { var ua = window.navigator.userAgent; var msie = ua.indexOf('MSIE '); return !(msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) } if (!check()) { if (window.location.host.indexOf('stg.') === 0) { window.location.href = 'https://stg.aliyundrive.com/static/unsupported_browser'; } else { window.location.href = 'https://www.aliyundrive.com/static/unsupported_browser'; } } })()
+    </script>
+    <script type="text/javascript" id="beacon-aplus" src="//g.alicdn.com/alilog/mlog/aplus_v2.js" exparams="clog=o&aplus&sidx=aplusSidx&ckx=aplusCkx"></script>
+  </head>
+  <body data-spm="share">
+    <div id="root"></div>
+    <script>
+      var Global = {
+        aliyun_drive_env: 'prod',
+        app_mac_download_link: 'https://yunpan.aliyun.com/downloads/apps/desktop/aDrive.dmg',
+        app_windows_download_link: 'https://yunpan.aliyun.com/downloads/apps/desktop/aDrive.exe',
+        auth_endpoint: 'https://auth.aliyundrive.com',
+        callapp_fallback_url: 'https://www.aliyundrive.com/applink',
+        cdnHost: 'https://g.alicdn.com/aliyun-drive-fe/aliyun-drive/2.0.95-share/share',
+        client_id:  '25dzX3vbYqktVxyX',
+        enable_to_app_share_file: 'true',
+        member_endpoint: 'https://member.aliyundrive.com',
+        open_share: 'false',
+        operation_fragment_url: 'https://fragment.tmall.com/adrive/act/shareOperationConfig??wh_biz=tm&wh_showError=true&&wh_callback=true',
+        pds_endpoint: 'https://api.aliyundrive.com',
+        pdsapi_endpoint: 'https://pdsapi.aliyundrive.com',
+        redirect_uri: 'https://www.aliyundrive.com/sign/callback',
+        save_share_ad: 'true',
+        sv_endpoint: 'https://api.aliyundrive.com',
+      };
+    </script>
+    <script src="//g.alicdn.com/code/lib/react/17.0.1/umd/react.production.min.js"></script>
+    <script src="//g.alicdn.com/code/lib/react-dom/17.0.1/umd/react-dom.production.min.js"></script>
+    <script src="https://g.alicdn.com/IMM/office-js/1.1.5/aliyun-web-office-sdk.min.js"></script>
+    <script src="//g.alicdn.com/code/lib/vConsole/3.11.0/vconsole.min.js"></script>
+
+    <script>
+      if ('prod' === 'daily' || 'prod' === 'stg') {
+        var ua = navigator.userAgent || '';
+        var isAndroid = /android/i.test(ua);
+        var isIos = /iphone|ipad|ipod/i.test(ua);
+        var isMobile = isAndroid || isIos;
+        var vConsole = isMobile ? new VConsole() : undefined;
+      }
+    </script>
+
+    <script src="https://g.alicdn.com/aliyun-drive-fe/aliyun-drive/2.0.95-share/share/bundle.js"></script>
+  </body>
+</html>
